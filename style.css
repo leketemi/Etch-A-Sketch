@@ -1,0 +1,50 @@
+html{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  background-color: #060642;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.grid-div{
+	display: inline-block;
+	outline: 1px solid rgba(0,0,0,0.2);
+  float: left;
+	box-sizing: border-box;
+}
+
+#container{
+	margin: auto;
+	border-radius: 5px;
+}
+
+.controls{
+  position: absolute;
+  display: inline-block;
+}
+
+button{
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  background-color: #060642;
+  color: #fff;
+}
+
+button:hover{
+  background-color: #e34bd2;
+}
